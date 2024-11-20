@@ -1,0 +1,21 @@
+.button-container{
+display: grid;
+grid-template-columns: 46% 46%;
+column-gap: 8%;
+}
+
+button{
+ height: 3em;
+ width: 100%;
+ border: none;
+ border-radius: 12px;
+ color: white;
+}
+
+.calc-button{
+  background-color: rgb(65, 65, 65);
+}
+
+.clear-btn{
+  background-color: rgb(190, 0, 0);
+}

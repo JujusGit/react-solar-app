@@ -1,0 +1,50 @@
+.bigcontainer{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 0;
+  background-image: url(../images/BG12.png);
+  background-size: 100vw 120vh;
+}
+
+.buttom-section{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 46% 46%;
+  height: 40%;
+  column-gap: 8%;
+  padding: 1% 5%;
+}
+
+
+@media (max-width: 500px) {
+
+  .bigcontainer{
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 0;
+    background-image: url(../images/BG12.png);
+    background-size: 100vw 120vh;
+    padding-top: 4em;
+  }
+
+  .buttom-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 90%;
+    height: 40%;
+    column-gap: 8%;
+    row-gap: 1em;
+    padding: 1% 5%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
