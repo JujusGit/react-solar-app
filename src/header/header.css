@@ -46,7 +46,7 @@
   font-weight: bolder;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 950px) {
 
   .img-size{
     width: 2em;
