@@ -1,13 +1,10 @@
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+.img-size{
+  width: 2.7em;
 }
 
-.img-size{
-  width: 2.5em;
+.image-section, .right-image-section{
+  display: flex;
+  align-items: center;
 }
 
 .header{
@@ -20,19 +17,32 @@
   padding: 10px 3em;
   border-radius: 20px;
 }
+.text-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.bold-text::before {
+  content: "AFMAM";
+}
+
+.solar-calculator::before{
+  content: "Solar Calculator";
+}
 
 .left{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 17%;
+  width: 10.5em;
 }
 
 .right{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 10%;
+  width: 7em;
 }
 
 .nigeria-image{
@@ -41,6 +51,10 @@
   border-radius: 100%;
 }
 
+.text{
+  font-weight: bolder;
+  font-size: 20px;
+}
 
 .bold{
   font-weight: bolder;
@@ -68,7 +82,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 47%;
+    width: 35%;
     
   }
   
@@ -90,5 +104,29 @@
   .bold{
     font-weight: bolder;
   }
+
+  .text-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bold-text::before {
+    content: "AFMAM";
+  }
   
+  .solar-calculator::before{
+    content: "";
+  }
+  .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6.7em;
+  }
+  
+  .text{
+    font-weight: bolder;
+    font-size: 17px;
+  }
 }

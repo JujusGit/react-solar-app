@@ -14,12 +14,15 @@ function Header() {
         </div>
 
         <div className="text-section">
-          <span className='bold'>
-          AFMAM  
+
+          <span className='bold bold-text'>
+       
           </span>
-          Solar
-          <br/>
-          Calculator
+
+          <span className='solar-calculator'>
+            
+          </span>
+      
         </div>
 
       </div>
@@ -31,7 +34,7 @@ function Header() {
         </div>
 
         <div className="text">
-            Nigeria
+            NIGERIA
         </div>
       </div>
     </div>

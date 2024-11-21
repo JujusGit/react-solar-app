@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './output.css'
 
+
 function Output({outputData, calculated, formData, errorMessage}){
 
 
@@ -86,33 +87,39 @@ function Output({outputData, calculated, formData, errorMessage}){
   return(
     <>
     <div className="output-container">
-      <div className="array-output-section">
-       {state === false && <p> Array Output/24hrs: <span className = {`${chargingStatus.className}`}>{arrayCalculation}</span> Watts </p>}
-       {state === true && <p> {message} </p>}
 
+      <div className="array-output-section">
+        <p className='array-output-text'> 
+         
+          <span className = {`${chargingStatus.className}`}> {arrayCalculation} </span> 
+           
+        </p>
       </div>
+
       <div className={`Battery-chargingTime-section`}>
         
-        <p>
-          Battery Charging Time: {batteryCalculation} Hours
+        <p className='battery-backup'>
+          {batteryCalculation} 
         </p>
 
-        <p className={`battery-backup-output ${chargingStatus.className}`}>
+        <p className={`message ${chargingStatus.className}`}>
           {chargingStatus.message}
         </p>
 
       </div>
+
       <div className={`battery-backup-section`}>
 
-        <p>
-          Battery backup Time: {backup} Hours
+        <p className='battery-backup-text'>
+         {backup} 
         </p>
 
-        <p className={`battery-backup-output ${backupStatus.className}`}>
+        <p className={`message ${backupStatus.className}`}>
           {backupStatus.message}
         </p>
 
       </div>
+      
     </div>
     </>
   )

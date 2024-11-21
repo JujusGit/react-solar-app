@@ -17,5 +17,30 @@ button{
 }
 
 .clear-btn{
+  align-items: center;
   background-color: rgb(190, 0, 0);
+}
+
+.clear-btn span{
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.bxs-trash-alt{
+color: white;
+font-size: 25px;
+margin: 2px;
+}
+
+.bxs-paper-plane{
+  color: white;
+  font-size: 25px;
+  margin: 2px;
+  }
+  
+
+.inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -71,11 +71,21 @@ function Buttons({ formData, setFormData, outputData, setOutputData, setCalculat
   return (
     <div className="button-container">
       <button className="calc-button" onClick={runCalculations}>
-        Calculate
+      <span className='inner'>
+      <i className='bx bxs-paper-plane' />
+          <span>
+          Calculate
+          </span>
+        </span>
       </button>
 
       <button className="clear-btn" onClick={clearAll}>
-        Clear All
+        <span className='inner'>
+        <i className='bx bxs-trash-alt' />
+          <span>
+            Clear All
+          </span>
+        </span>
       </button>
     </div>
   );
