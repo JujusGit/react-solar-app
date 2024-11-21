@@ -1,12 +1,11 @@
 *{
-  font-family: "Funnel Display", sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-size: 18px;
 }
 
 .bigcontainer{
+  font-family: "Funnel Display", sans-serif;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -16,20 +15,20 @@
   padding: 2em 0;
   background-image: url(../images/BG12.png);
   background-size: 100vw 120vh;
+  font-size: 18px;
 }
 
 .buttom-section{
-  width: 80%;
+  width: 70%;
   display: grid;
   grid-template-columns: 46% 46%;
   height: 40%;
   column-gap: 8%;
-  padding: 1% 5%;
+  padding: 1% 2%;
 }
 
 
-@media (max-width: 950px) {
-
+@media (max-width: 950px){
   .bigcontainer{
     height: 120vh;
     width: 100vw;

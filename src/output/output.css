@@ -1,16 +1,22 @@
 .output-container{
+  font-family: "Kufam", sans-serif; 
+  font-weight: lighter;
+  font-style: normal;
   background-color: orange;
   color: white;
   height: 15em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2em 4em;
+  padding: 2em;
   font-size: 10px;
   font-weight: bolder;
   border-radius: 10px;
 }
 
+.output-container div{
+  font-size: 18px;
+}
 .message{
   font-size: 14px;
 }
@@ -28,22 +34,27 @@
 }
 
 .array-output-text::before {
+ 
   content: "Array Output/24hrs: ";
 }
 
 .battery-backup::before{
+ 
   content: " Battery Charging Time: ";
 }
 
 .battery-backup-text::before{
+ 
   content: "Battery backup Time: ";
 }
 
 .array-output-text::after {
+  
   content: " Watt";
 }
 
 .battery-backup::after, .battery-backup-text::after{
+ 
   content: " Hours";
 }
 

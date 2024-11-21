@@ -5,6 +5,7 @@ column-gap: 8%;
 }
 
 button{
+  font-size: 18px;
  height: 3em;
  width: 100%;
  border: none;
@@ -21,7 +22,7 @@ button{
   background-color: rgb(190, 0, 0);
 }
 
-.clear-btn span{
+.clear-btn span, .calc-button span{
   font-weight: bolder;
   font-size: 17px;
 }
